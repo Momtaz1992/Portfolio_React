@@ -1,5 +1,6 @@
 import '../style.css';
-
+import Personal from '../images/Personal.png'
+import ShapeImg from '../images/Shape.png'
 const Home = () => {
   return (
     <>
@@ -24,11 +25,15 @@ const Home = () => {
           <a href="#" className="btn">Download CV</a>
 
           <div className="social">
-            <a href="https://www.linkedin.com/in/momtaz-asmar/"><img src="https://img.icons8.com/color/48/null/linkedin-circled--v1.png"/></a>
-            <a href="#"><img src="https://img.icons8.com/color/48/null/github--v1.png"/></a>
-            <a href="#"><img src="https://img.icons8.com/external-others-inmotus-design/67/null/external-Gmail-virtual-keyboard-others-inmotus-design.png"/></a>
-            <a href="#"><img src="https://img.icons8.com/fluency/48/null/facebook-new.png"/></a>
+            <a href="https://www.linkedin.com/in/momtaz-asmar/" target="_blank"><img src="https://img.icons8.com/color/48/null/linkedin-circled--v1.png"/></a>
+            <a href="https://github.com/Momtaz1992" target="_blank"><img src="https://img.icons8.com/color/48/null/github--v1.png"/></a>
+            <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank"><img src="https://img.icons8.com/external-others-inmotus-design/67/null/external-Gmail-virtual-keyboard-others-inmotus-design.png"/></a>
+            <a href="https://www.facebook.com/momtazasmar/" target="_blank" ><img src="https://img.icons8.com/fluency/48/null/facebook-new.png"/></a>
           </div>
+        </div>
+        <div className="container-images">
+            <img src={ShapeImg} alt="shape" className="shape" />
+            <img src={Personal} alt="img"  className="pic" />
         </div>
       </div>
     </section>
