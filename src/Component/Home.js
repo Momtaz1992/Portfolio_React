@@ -6,7 +6,7 @@ const Home = () => {
     <>
     <section className="home" id="Home">
       <nav>
-        <h2>That's my <span> Personal Portfolio</span></h2>
+        <h2>That's my<span> Personal Portfolio</span></h2>
         <ul>
           <li><a href="#Home">Home</a></li>
           <li><a href="#About">About Me</a></li>
