@@ -15,7 +15,7 @@ const Home = () => {
           <li><a href="#Contact">Contact Me</a></li>
         </ul>
 
-        <a href="#" className="btn">Subscribe</a>
+        <a href="#" className="btn">Send me a Email</a>
       </nav>
       <div className="content">
         <div className="container-texts">

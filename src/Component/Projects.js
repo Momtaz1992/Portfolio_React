@@ -5,7 +5,7 @@ const Services = () => {
     <>
       <section className="services">
         <h1 className="text-center">
-          <span>Our</span>Services
+          <span>My</span>Projects
         </h1>
         <div className="box">
           <div className="card">
